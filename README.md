@@ -7,7 +7,7 @@ This is a reproduce of a exception that happens now and then in Micronaut 4.7.5.
 
 For 3 I used Insomnia (https://insomnia.rest/). There you can just click send again and again as fast as possible to start new request before the previous one is done.
 
-After a few (30-50) requets, I started to see the exception being thrown in the proxy:
+After a few (30-50) requests, I started to see the exception being thrown in the proxy:
 ```
 16:00:11.777 [default-nioEventLoopGroup-1-2] WARN  i.n.util.concurrent.DefaultPromise - An exception was thrown by io.micronaut.http.client.netty.StreamWriter$$Lambda/0x0000000801523510.operationComplete()
 java.lang.NullPointerException: Cannot invoke "io.micronaut.http.netty.body.BufferConsumer$Upstream.onBytesConsumed(long)" because "this.upstream" is null
