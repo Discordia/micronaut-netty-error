@@ -1,6 +1,6 @@
 This is a reproduce of a exception that happens now and then in Micronaut 4.7.5.
 
-*How to reproduce*
+**How to reproduce**
 1. Start the service `netty-error-service`. It will start on port 8081.
 2. Start the proxy service `netty-error-proxy-client`. It will start on port 8080.
 3. Bomb with requests on POST http://localhost:8080/service/payload with the json body thats in the file large64k.json.
