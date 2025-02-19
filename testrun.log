@@ -1,0 +1,404 @@
+/Users/robertsjodahl/.sdkman/candidates/java/21.0.2-amzn/bin/java -javaagent:/Applications/IntelliJ IDEA 2024.1.app/Contents/lib/idea_rt.jar=58724:/Applications/IntelliJ IDEA 2024.1.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/robertsjodahl/dev/temp/micronaut-netty-error/netty-error-proxy-client/build/classes/java/main:/Users/robertsjodahl/dev/temp/micronaut-netty-error/netty-error-proxy-client/build/resources/main:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut.reactor/micronaut-reactor-http-client/3.6.0/f55fa81012c1b8566d4998aacd1547eea9159de3/micronaut-reactor-http-client-3.6.0.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-client/4.7.13/11fa4aa24fbc7bf1df2538e4b14523e2d6413764/micronaut-http-client-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut.serde/micronaut-serde-jackson/2.12.1/dc6c76f89bf917ada9985ac3d8f9bf1519ec68b9/micronaut-serde-jackson-2.12.1.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut.reactor/micronaut-reactor/3.6.0/b98e5dfb863651fb31c4e22caba4d0e6e38ffafc/micronaut-reactor-3.6.0.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-server-netty/4.7.13/fcabf7568668c8fc3bc47e4a9d4b30fac27382c2/micronaut-http-server-netty-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-inject/4.7.13/2983624c7dbba9583b6217266e78c23fda9d9e54/micronaut-inject-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-websocket/4.7.13/32594b217ce6f6de656caf8f6782c83aa7a9137d/micronaut-websocket-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-client-core/4.7.13/fa5131342a9ce565dbba960e30e104ebff71815e/micronaut-http-client-core-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-netty/4.7.13/6b9247ad700d8e8e68673ca5f2ed2b567b819234/micronaut-http-netty-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-context/4.7.13/54aab3187943cd60af5da760f28ed82f95ef5505/micronaut-context-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler-proxy/4.1.116.Final/3e0c3f519305905e41b69dc73064684e31d68357/netty-handler-proxy-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.16/172931663a09a1fa515567af5fbef00897d3c04/slf4j-api-2.0.16.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut.serde/micronaut-serde-api/2.12.1/2cbaf21eb49af2110cbd4a250cf6cd91000215ad/micronaut-serde-api-2.12.1.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-jackson-core/4.7.13/b185e25058ced53371d6ededddcf5bfec614a659/micronaut-jackson-core-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.17.2/147b7b9412ffff24339f8aba080b292448e08698/jackson-annotations-2.17.2.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.6.10/6860a576ae0bd1957c5d4c87e861025248818c01/reactor-core-3.6.10.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http-server/4.7.13/d2a7c29cd9f0bc320714bf0c74c961f1999a508a/micronaut-http-server-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.116.Final/75a0455171848a4188a9f77e9a1e76a036381260/netty-codec-http-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core/4.7.13/f46f6c522176d639e96e85150082dac8d0ad296d/micronaut-core-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-http/4.7.13/a24fe305beeb6be7ae7a3b14f092a47c9edcf71c/micronaut-http-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-aop/4.7.13/b23f7adf80e1decc8e8dac80346f6a34d2497cf0/micronaut-aop-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-json-core/4.7.13/5fb690f1e2e795e34d92e784d714c4b5114050ac/micronaut-json-core-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-discovery-core/4.7.13/9297f7726cba5be1aae417d594377909a8cb5b10/micronaut-discovery-core-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-buffer-netty/4.7.13/efe47ff0b9bf7947e7dc8fda12d161747dea65b6/micronaut-buffer-netty-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.116.Final/5aefc3cf9ca7df764d0b15b9cb9b6e706a4a55b3/netty-codec-http2-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.116.Final/eaef854ef33f3fd3d0ecf927690d8112c710bc05/netty-handler-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-socks/4.1.116.Final/6d67f4ad92677a29e7a5aae340cb33ea80408c72/netty-codec-socks-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.116.Final/cbe928f601e51a0b5750342b6dad5d35fa12f745/netty-codec-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.116.Final/3fa60bbc84222a691bb0686a82308b8e180812b7/netty-transport-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.116.Final/77a86414b9c1e52622e467f1ef7ccb473996742a/netty-buffer-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.116.Final/6871f95af2bc3a98fda34a580baf6cac8cbc2944/netty-common-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.17.2/969a35cb35c86512acbadcdbbbfb044c877db814/jackson-core-2.17.2.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.4/3864a1320d97d7b045f729a326e1e077661f31b7/reactive-streams-1.0.4.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-router/4.7.13/aadb29da24180dfb8c7c81e89760cfad0c6dcde4/micronaut-router-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-context-propagation/4.7.13/290f86cf907dbd96f1d657593aaf94f4121a479f/micronaut-context-propagation-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut/micronaut-core-reactive/4.7.13/8207ef3a2c41499672b94e90b9f291cbf70daaa6/micronaut-core-reactive-4.7.13.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.116.Final/1f77d6d8e582ded200e0be1462afbc7563144e12/netty-transport-native-unix-common-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.116.Final/82fc6bbf59eae483712c8716b8d1f5112b1721a0/netty-resolver-4.1.116.Final.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.5.15/7f8d6371626833bd1a232fe35490edffe04e5b3/logback-classic-1.5.15.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/io.micronaut.serde/micronaut-serde-support/2.12.1/b8c75cd339313a94938be8c96e0fbd07f83875a8/micronaut-serde-support-2.12.1.jar:/Users/robertsjodahl/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.5.15/81633c8360b7e5b4edc52ca908bf14de0b73ef05/logback-core-1.5.15.jar netty.error.proxy.Application
+ __  __ _                                  _   
+|  \/  (_) ___ _ __ ___  _ __   __ _ _   _| |_ 
+| |\/| | |/ __| '__/ _ \| '_ \ / _` | | | | __|
+| |  | | | (__| | | (_) | | | | (_| | |_| | |_ 
+|_|  |_|_|\___|_|  \___/|_| |_|\__,_|\__,_|\__|
+15:59:06.072 [main] INFO  io.micronaut.runtime.Micronaut - Startup completed in 362ms. Server Running: http://localhost:8080
+15:59:09.051 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:21.632 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:26.917 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:32.070 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:37.986 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:39.424 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:40.997 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:41.641 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:44.882 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:45.341 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:45.841 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:46.250 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:46.633 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:46.951 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:47.243 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:47.552 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:47.824 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:48.119 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:48.380 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:48.698 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:48.996 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:49.307 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:49.556 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:49.803 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:49.999 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:50.151 [default-nioEventLoopGroup-1-21] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:50.413 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:50.561 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:50.695 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:50.856 [default-nioEventLoopGroup-1-7] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:51.076 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:51.233 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:51.372 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:51.517 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:51.637 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:51.783 [default-nioEventLoopGroup-1-16] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:51.906 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.063 [default-nioEventLoopGroup-1-19] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.194 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.335 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.451 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.596 [default-nioEventLoopGroup-1-5] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.735 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.886 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:52.995 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:53.286 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:53.387 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:55.916 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:56.080 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:56.212 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:56.335 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:57.075 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:57.334 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:57.438 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:57.617 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:57.764 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+15:59:58.008 [default-nioEventLoopGroup-1-11] ERROR i.m.http.server.RouteExecutor - Unexpected error occurred: Read Timeout
+io.micronaut.http.client.exceptions.ReadTimeoutException: Read Timeout
+	at io.micronaut.http.client.exceptions.ReadTimeoutException.<clinit>(ReadTimeoutException.java:26)
+	at io.micronaut.http.client.netty.DefaultHttpClient.handleResponseError(DefaultHttpClient.java:2010)
+	at io.micronaut.http.client.netty.DefaultHttpClient$6.fail(DefaultHttpClient.java:1688)
+	at io.micronaut.http.client.netty.Http1ResponseHandler$BeforeResponse.exceptionCaught(Http1ResponseHandler.java:147)
+	at io.micronaut.http.client.netty.Http1ResponseHandler.exceptionCaught(Http1ResponseHandler.java:88)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireExceptionCaught(CombinedChannelDuplexHandler.java:424)
+	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92)
+	at io.netty.channel.CombinedChannelDuplexHandler$1.fireExceptionCaught(CombinedChannelDuplexHandler.java:145)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143)
+	at io.netty.channel.CombinedChannelDuplexHandler.exceptionCaught(CombinedChannelDuplexHandler.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.micronaut.http.client.netty.ConnectionManager$Pool$Http1ConnectionHolder.fireReadTimeout(ConnectionManager.java:1469)
+	at io.micronaut.http.client.netty.ConnectionManager$Pool$ConnectionHolder$1.readTimedOut(ConnectionManager.java:1302)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelIdle(ReadTimeoutHandler.java:90)
+	at io.netty.handler.timeout.IdleStateHandler$ReaderIdleTimeoutTask.run(IdleStateHandler.java:525)
+	at io.netty.handler.timeout.IdleStateHandler$AbstractIdleTask.run(IdleStateHandler.java:497)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:156)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+15:59:58.392 [default-nioEventLoopGroup-1-13] ERROR i.m.http.server.RouteExecutor - Unexpected error occurred: Read Timeout
+io.micronaut.http.client.exceptions.ReadTimeoutException: Read Timeout
+	at io.micronaut.http.client.exceptions.ReadTimeoutException.<clinit>(ReadTimeoutException.java:26)
+	at io.micronaut.http.client.netty.DefaultHttpClient.handleResponseError(DefaultHttpClient.java:2010)
+	at io.micronaut.http.client.netty.DefaultHttpClient$6.fail(DefaultHttpClient.java:1688)
+	at io.micronaut.http.client.netty.Http1ResponseHandler$BeforeResponse.exceptionCaught(Http1ResponseHandler.java:147)
+	at io.micronaut.http.client.netty.Http1ResponseHandler.exceptionCaught(Http1ResponseHandler.java:88)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.fireExceptionCaught(CombinedChannelDuplexHandler.java:424)
+	at io.netty.channel.ChannelHandlerAdapter.exceptionCaught(ChannelHandlerAdapter.java:92)
+	at io.netty.channel.CombinedChannelDuplexHandler$1.fireExceptionCaught(CombinedChannelDuplexHandler.java:145)
+	at io.netty.channel.ChannelInboundHandlerAdapter.exceptionCaught(ChannelInboundHandlerAdapter.java:143)
+	at io.netty.channel.CombinedChannelDuplexHandler.exceptionCaught(CombinedChannelDuplexHandler.java:231)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325)
+	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317)
+	at io.micronaut.http.client.netty.ConnectionManager$Pool$Http1ConnectionHolder.fireReadTimeout(ConnectionManager.java:1469)
+	at io.micronaut.http.client.netty.ConnectionManager$Pool$ConnectionHolder$1.readTimedOut(ConnectionManager.java:1302)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelIdle(ReadTimeoutHandler.java:90)
+	at io.netty.handler.timeout.IdleStateHandler$ReaderIdleTimeoutTask.run(IdleStateHandler.java:525)
+	at io.netty.handler.timeout.IdleStateHandler$AbstractIdleTask.run(IdleStateHandler.java:497)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98)
+	at io.netty.util.concurrent.ScheduledFutureTask.run(ScheduledFutureTask.java:156)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:00:11.760 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:11.777 [default-nioEventLoopGroup-1-2] WARN  i.n.util.concurrent.DefaultPromise - An exception was thrown by io.micronaut.http.client.netty.StreamWriter$$Lambda/0x0000000801523510.operationComplete()
+java.lang.NullPointerException: Cannot invoke "io.micronaut.http.netty.body.BufferConsumer$Upstream.onBytesConsumed(long)" because "this.upstream" is null
+	at io.micronaut.http.client.netty.StreamWriter.lambda$add0$1(StreamWriter.java:112)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at io.micronaut.http.client.netty.StreamWriter.add0(StreamWriter.java:108)
+	at io.micronaut.http.client.netty.StreamWriter.add(StreamWriter.java:96)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe0(StreamingNettyByteBody.java:348)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe(StreamingNettyByteBody.java:326)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody.primary(StreamingNettyByteBody.java:92)
+	at io.micronaut.http.client.netty.StreamWriter.startWriting(StreamWriter.java:64)
+	at io.micronaut.http.client.netty.DefaultHttpClient.lambda$sendRawRequest$48(DefaultHttpClient.java:1779)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:61)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:96)
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:00:11.900 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:12.093 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:12.257 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:12.411 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:12.586 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:12.743 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:12.900 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:13.056 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:13.217 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:13.398 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:13.587 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:13.734 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:13.891 [default-nioEventLoopGroup-1-16] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:14.039 [default-nioEventLoopGroup-1-19] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:14.231 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:14.395 [default-nioEventLoopGroup-1-5] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:14.575 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:14.749 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:14.898 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:15.108 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:15.238 [default-nioEventLoopGroup-1-14] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:15.421 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:15.577 [default-nioEventLoopGroup-1-16] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:15.754 [default-nioEventLoopGroup-1-17] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:15.913 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:16.077 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:16.252 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:16.403 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:16.572 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:16.745 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:16.900 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:17.079 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:17.232 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:17.251 [default-nioEventLoopGroup-1-10] WARN  i.n.util.concurrent.DefaultPromise - An exception was thrown by io.micronaut.http.client.netty.StreamWriter$$Lambda/0x0000000801523510.operationComplete()
+java.lang.NullPointerException: Cannot invoke "io.micronaut.http.netty.body.BufferConsumer$Upstream.onBytesConsumed(long)" because "this.upstream" is null
+	at io.micronaut.http.client.netty.StreamWriter.lambda$add0$1(StreamWriter.java:112)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at io.micronaut.http.client.netty.StreamWriter.add0(StreamWriter.java:108)
+	at io.micronaut.http.client.netty.StreamWriter.add(StreamWriter.java:96)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe0(StreamingNettyByteBody.java:348)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe(StreamingNettyByteBody.java:326)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody.primary(StreamingNettyByteBody.java:92)
+	at io.micronaut.http.client.netty.StreamWriter.startWriting(StreamWriter.java:64)
+	at io.micronaut.http.client.netty.DefaultHttpClient.lambda$sendRawRequest$48(DefaultHttpClient.java:1779)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:61)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:96)
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:00:17.393 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:17.565 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:17.703 [default-nioEventLoopGroup-1-19] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:17.859 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:18.012 [default-nioEventLoopGroup-1-21] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:18.170 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:18.326 [default-nioEventLoopGroup-1-3] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:18.492 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:18.611 [default-nioEventLoopGroup-1-5] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:18.951 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:19.115 [default-nioEventLoopGroup-1-7] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:19.263 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:19.453 [default-nioEventLoopGroup-1-9] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:19.615 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:19.793 [default-nioEventLoopGroup-1-11] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:19.943 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:20.203 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:20.349 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:20.532 [default-nioEventLoopGroup-1-16] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:20.695 [default-nioEventLoopGroup-1-19] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:20.882 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:21.055 [default-nioEventLoopGroup-1-5] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:21.224 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:21.261 [default-nioEventLoopGroup-1-6] WARN  i.n.util.concurrent.DefaultPromise - An exception was thrown by io.micronaut.http.client.netty.StreamWriter$$Lambda/0x0000000801523510.operationComplete()
+java.lang.NullPointerException: Cannot invoke "io.micronaut.http.netty.body.BufferConsumer$Upstream.onBytesConsumed(long)" because "this.upstream" is null
+	at io.micronaut.http.client.netty.StreamWriter.lambda$add0$1(StreamWriter.java:112)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at io.micronaut.http.client.netty.StreamWriter.add0(StreamWriter.java:108)
+	at io.micronaut.http.client.netty.StreamWriter.add(StreamWriter.java:96)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe0(StreamingNettyByteBody.java:348)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe(StreamingNettyByteBody.java:326)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody.primary(StreamingNettyByteBody.java:92)
+	at io.micronaut.http.client.netty.StreamWriter.startWriting(StreamWriter.java:64)
+	at io.micronaut.http.client.netty.DefaultHttpClient.lambda$sendRawRequest$48(DefaultHttpClient.java:1779)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:61)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:96)
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:00:21.261 [default-nioEventLoopGroup-1-4] WARN  i.n.util.concurrent.DefaultPromise - An exception was thrown by io.micronaut.http.client.netty.StreamWriter$$Lambda/0x0000000801523510.operationComplete()
+java.lang.NullPointerException: Cannot invoke "io.micronaut.http.netty.body.BufferConsumer$Upstream.onBytesConsumed(long)" because "this.upstream" is null
+	at io.micronaut.http.client.netty.StreamWriter.lambda$add0$1(StreamWriter.java:112)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at io.micronaut.http.client.netty.StreamWriter.add0(StreamWriter.java:108)
+	at io.micronaut.http.client.netty.StreamWriter.add(StreamWriter.java:96)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe0(StreamingNettyByteBody.java:348)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe(StreamingNettyByteBody.java:326)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody.primary(StreamingNettyByteBody.java:92)
+	at io.micronaut.http.client.netty.StreamWriter.startWriting(StreamWriter.java:64)
+	at io.micronaut.http.client.netty.DefaultHttpClient.lambda$sendRawRequest$48(DefaultHttpClient.java:1779)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:61)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:96)
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:00:21.419 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:21.620 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:21.832 [default-nioEventLoopGroup-1-7] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:21.990 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:22.158 [default-nioEventLoopGroup-1-9] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:22.321 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:22.494 [default-nioEventLoopGroup-1-11] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:22.635 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:22.785 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:22.988 [default-nioEventLoopGroup-1-14] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:23.312 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:23.512 [default-nioEventLoopGroup-1-16] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:23.603 [default-nioEventLoopGroup-1-17] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:23.777 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:23.968 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:24.117 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:24.300 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:24.438 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:24.620 [default-nioEventLoopGroup-1-14] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:24.804 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:25.013 [default-nioEventLoopGroup-1-16] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:25.200 [default-nioEventLoopGroup-1-17] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:25.519 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:25.560 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:25.694 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:25.897 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:26.092 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:26.333 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:26.518 [default-nioEventLoopGroup-1-19] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:26.714 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:26.926 [default-nioEventLoopGroup-1-21] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:27.100 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:27.239 [default-nioEventLoopGroup-1-3] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:27.355 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:27.682 [default-nioEventLoopGroup-1-5] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:27.876 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:28.102 [default-nioEventLoopGroup-1-18] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:28.304 [default-nioEventLoopGroup-1-19] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:28.460 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:28.619 [default-nioEventLoopGroup-1-19] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:28.794 [default-nioEventLoopGroup-1-20] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:29.076 [default-nioEventLoopGroup-1-21] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:29.242 [default-nioEventLoopGroup-1-2] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:29.474 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:29.546 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:29.721 [default-nioEventLoopGroup-1-7] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:29.908 [default-nioEventLoopGroup-1-3] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:30.158 [default-nioEventLoopGroup-1-4] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:30.341 [default-nioEventLoopGroup-1-5] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:30.532 [default-nioEventLoopGroup-1-6] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:30.717 [default-nioEventLoopGroup-1-7] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:30.817 [default-nioEventLoopGroup-1-8] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:31.002 [default-nioEventLoopGroup-1-9] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:31.146 [default-nioEventLoopGroup-1-10] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:31.323 [default-nioEventLoopGroup-1-11] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:31.460 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:31.614 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:31.834 [default-nioEventLoopGroup-1-14] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:32.178 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:32.260 [default-nioEventLoopGroup-1-15] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:32.517 [default-nioEventLoopGroup-1-13] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:32.715 [default-nioEventLoopGroup-1-16] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
+16:00:40.020 [default-nioEventLoopGroup-1-3] WARN  i.n.util.concurrent.DefaultPromise - An exception was thrown by io.micronaut.http.client.netty.StreamWriter$$Lambda/0x0000000801523510.operationComplete()
+java.lang.NullPointerException: Cannot invoke "io.micronaut.http.netty.body.BufferConsumer$Upstream.onBytesConsumed(long)" because "this.upstream" is null
+	at io.micronaut.http.client.netty.StreamWriter.lambda$add0$1(StreamWriter.java:112)
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590)
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557)
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492)
+	at io.netty.util.concurrent.DefaultPromise.addListener(DefaultPromise.java:185)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:95)
+	at io.netty.channel.DefaultChannelPromise.addListener(DefaultChannelPromise.java:30)
+	at io.micronaut.http.client.netty.StreamWriter.add0(StreamWriter.java:108)
+	at io.micronaut.http.client.netty.StreamWriter.add(StreamWriter.java:96)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe0(StreamingNettyByteBody.java:348)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody$SharedBuffer.subscribe(StreamingNettyByteBody.java:326)
+	at io.micronaut.http.netty.body.StreamingNettyByteBody.primary(StreamingNettyByteBody.java:92)
+	at io.micronaut.http.client.netty.StreamWriter.startWriting(StreamWriter.java:64)
+	at io.micronaut.http.client.netty.DefaultHttpClient.lambda$sendRawRequest$48(DefaultHttpClient.java:1779)
+	at reactor.core.publisher.MonoCreate.subscribe(MonoCreate.java:61)
+	at reactor.core.publisher.Mono.subscribe(Mono.java:4576)
+	at reactor.core.publisher.MonoSubscribeOn$SubscribeOnSubscriber.run(MonoSubscribeOn.java:126)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:84)
+	at reactor.core.scheduler.WorkerTask.call(WorkerTask.java:37)
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:96)
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:173)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:166)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+16:02:46.675 [default-nioEventLoopGroup-1-12] INFO  n.error.proxy.service.ProxyService - Proxying request to path: /service/payload
